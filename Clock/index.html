@@ -57,15 +57,29 @@
     }
 
     .hand {
-      width: 50%;
       height: 6px;
+      top: 50%;
       background: black;
       position: absolute;
-      top: 50%;
       transform-origin: 100%;
       transform: rotate(90deg);
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .second-hand {
+        width: 50%;
+    }
+
+    .min-hand {
+        width: 30%;
+        left: 20%
+     
+    }
+
+    .hour-hand {
+        width: 20%;
+        left: 30%;
     }
 
   </style>
